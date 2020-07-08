@@ -1,0 +1,5 @@
+---
+    deployment:
+      tasks:
+        - export DEPLOYPATH=/home/ther4g/repositories/theraceforgood
+        - /bin/cp -R images $DEPLOYPATH
